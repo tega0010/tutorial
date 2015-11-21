@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="themes.css" />
+<link rel="stylesheet" href="themes/Themes.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="x.js"></script>
+</head>
+<body>
+<!-- This is the Home page -->
+    <section id="homepage" data-role="page" data-Theme ="a">
+        <div data-role="header">
+           <h1>Homemade Garland in 8 Steps</h1>
+        </div>
+        <div class="ui-content">
+           <img src= "images/670px-Garland-5.jpg" id=homePic>
+            <p class="about">Do you need to recycle your left over bits of fabric? Is your fabric stash outgrowing its allotted storage space? This is an opportunity to up-cycle those fabric leftovers and decorate for holidays at the same time!</p>
+        <p>To begin the tutorial please select "Begin Tutorial", or if you wish to learn a bit about me please select "About Me".</p>
+        </div>
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#secondpage"  class="begin" data-role="button">Begin Tutorial</a></li>
+                <li><a href="#aboutme" data-role="button">About Me</a></li>            
+            </ul>
+           </div>
+        </div>
+    </section>
+      
+      <!-- About Me -->
+          <div id="aboutme" data-role="page">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>About Me</h1>
+        </div>
+        <div class="ui-content">
+            <h2>About Me</h2>
+            <img src="images/iamawesome.jpg" width="50%" id="aboutmepic">
+           <p>I'm 22 years old from Ottawa, Ontario. I love Christmas and everything to do with Christmas.
+            </p>
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>              
+                </ul>
+            </div>      
+        </div>
+      </div>
+    
+       
+        <!-- This is the second page -->
+     <div id="secondpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 1 of 8</h1>
+        </div>
+        <div class="ui-content">
+            <h2>Sort through your fabric stash.</h2>
+           <ul>
+               <li>Coordinate the scraps by their color.</li>
+               <li>Determine how much yardage you have. You will be able to make approximately 30 inches (76cm) of garland per yard (91cm) of fabric you have on hand.</li>
+               <li>Choose 2 to 4 coordinating fabrics to use for your garland.</li>
+           </ul>
+            <img src="images/670px-Garland-5.jpg" id="craftpic">
+        </div>
+         <div data-role="navbar">
+            <ul>
+               <li><a href="#homepage"  data-role="button" class="btnPrv">Previous Step</a></li>
+                <li><a href="#thirdpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>
+          </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>              
+                </ul>
+            </div>      
+        </div>
+      </div>
+    
+     <!-- This is the third page -->
+    <div id="thirdpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 2 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Cut the fabric into strips.</h2>
+            <p>The strips should measure five inches long by one inch wide (12.5cm x 2.5cm). You can cut them longer if you wish, but you will need to cut them all the same length for best results.</p>
+            <ul>
+                <li>A rotary cutter and mat make this part of the project a breeze.</li>
+                <li>You will need approximately 24 strips per linear feet of finished garland.</li>
+            </ul>
+            <img src="images/fabricspage.png" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#secondpage"  data-role="button" class=btnPrv>Previous Step</a></li>
+                <li><a href="#fourthpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>         
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li> 
+                </ul>
+           </div>                
+        </div>
+      </div>
+    
+         <!-- This is the fourth page -->
+    <div id="fourthpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 3 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Find the end of the twine.</h2>
+            <p>Tie a knot around 10 inches (25cm) from the end.</p>
+            <img src="images/670px-Garland-tie-1.jpg" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#thirdpage"  data-role="button" class=btnPrv>Previous Step</a></li>
+                <li><a href="#fifthpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>    
+                </ul>
+            </div>          
+        </div>
+     </div>
+
+<!-- This is the fifth page -->
+    <div id="fifthpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 4 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Select a fabric strip.</h2>
+           <p>Place it under the twine, ready for tying.</p>
+            <img src="images/670px-Garland-tie-2.jpg" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#fourthpage"  data-role="button" class="btnPrv">Previous Step</a></li>
+                <li><a href="#sixthpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>    
+                </ul>
+            </div>          
+        </div>
+      </div>
+
+<!-- This is the sixth page -->
+    <div id="sixthpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 5 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Tie the fabric strip to the twine on the side of the knot that is away from the end.</h2>
+            <ul>
+                <li>Use a simple overhand knot for best results.</li>
+            </ul>
+            <img src="images/670px-Garland-tie-3.jpg" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#fifthpage"  data-role="button" class=btnPrv>Previous Step</a></li>
+                <li><a href="#seventhpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>
+    </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>              
+                </ul>
+            </div>          
+        </div>
+     </div>
+
+<!-- This is the seventh page -->
+    <div id="seventhpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 6 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Slide the tied fabric gently against the knot in the twine.</h2>
+            <p>Then reach for your next piece of fabric and repeat.</p>
+            <img src="images/670px-Garland-tie-4.jpg" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#sixthpage"  data-role="button" class=btnPrv>Previous Step</a></li>
+                <li><a href="#eigthpage" data-role="button" class="btnNxt">Next Step</a></li>
+                
+            </ul>
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>
+                
+                </ul>
+            </div>          
+        </div>
+     </div>
+
+<!-- This is the eighth page -->
+    <div id="eigthpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 7 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Slide the tied fabric gently against the knot in the twine.</h2>
+            <p>Then reach for your next piece of fabric and repeat.</p>
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#seventhpage"  data-role="button" class="btnPrv">Previous Step</a></li>
+                <li><a href="#ninthpage" data-role="button" class="btnNxt">Final Step</a></li>
+                
+            </ul>
+        </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                   <li><a href="#homepage"  data-role="button">Home</a></li>             
+                </ul>
+            </div>          
+        </div>
+    </div>
+
+<!-- This is the ninth page -->
+    <div id="ninthpage" data-role="dialog">
+        <div data-role="header">
+           <a href="#homepage" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext" data-transition="slide"></a>
+            <h1>Step 8 of 8</h1>
+        </div>
+        <div class="ui-content">
+           <h2>When you're satisfied with the length, simply tie a knot in the twine at the end of your fabric strips.</h2>
+            <p>Finish by cutting the end of the twine long enough to facilitate hanging.</p>
+             <img src="images/670px-Garland-5.jpg" id="craftpic">
+             <p>You're now finished and can hang your homemade garland wherever you like to get in the Christmas spirit! Enjoy!</p>
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#seventhpage"  data-role="button">Previous Step</a></li>             
+            </ul>
+    </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#homepage"  data-role="button">Home</a></li>
+                
+            </ul>
+            </div>          
+        </div>
+     </div>
+
+
+</body>

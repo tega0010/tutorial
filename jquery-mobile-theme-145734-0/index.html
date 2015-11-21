@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="themes/Themes.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- This is the first page -->
+    <section id="firstpage" data-role="page" data-Theme ="a">
+        <div data-role="header">
+           <h1>Homemade Garland in 9 Steps</h1>
+        </div>
+        <div class="ui-content">
+           <img src= "images/670px-Garland-5.jpg" id=homePic>
+            <p>Do you need to recycle your left over bits of fabric? Is your fabric stash outgrowing its allotted storage space? This is an opportunity to up-cycle those fabric leftovers and decorate for holidays at the same time!</p>
+        <p>To begin the tutorial please select "Begin Tutorial", or if you wish to learn a bit about me please select "About Me".</p>
+        </div>
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#secondpage"  data-role="button">Begin Tutorial</a></li>
+                <li><a href="#info" data-role="button">About Me</a></li>
+                
+            </ul>
+           </div>
+        </div>
+    </section>
+       
+        <!-- This is the second page -->
+    <div id="secondpage" data-role="dialog">
+        <div data-role="header">
+            <h1>Step 1 of 9</h1>
+        </div>
+        <div class="ui-content">
+            <h2>Sort through your fabric stash.</h2>
+           <ul>
+               <li>Coordinate the scraps by their color.</li>
+               <li>Determine how much yardage you have. You will be able to make approximately 30 inches (76cm) of garland per yard (91cm) of fabric you have on hand.</li>
+               <li>Choose 2 to 4 coordinating fabrics to use for your garland.</li>
+           </ul>
+            <img src="images/670px-Garland-5.jpg" id="craftpic">
+        </div>
+         <div data-role="navbar">
+            <ul>
+               <li><a href="#firstpage"  data-role="button">previous</a></li>
+                <li><a href="#thirdpage" data-role="button" id="btnNxt">next</a></li>
+                
+            </ul>
+           </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#firstpage"  data-role="button">Home</a></li>
+                
+            </ul>
+           </div>
+            
+        </div>
+    </div>
+    
+     <!-- This is the third page -->
+    <div id="thirdpage" data-role="dialog">
+        <div data-role="header">
+            <h1>Step 2 of 9</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Cut the fabric into strips.</h2>
+            <p>The strips should measure five inches long by one inch wide (12.5cm x 2.5cm). You can cut them longer if you wish, but you will need to cut them all the same length for best results.</p>
+            <ul>
+                <li>A rotary cutter and mat make this part of the project a breeze.</li>
+                <li>You will need approximately 24 strips per linear feet of finished garland.</li>
+            </ul>
+            <img src="images/fabricspage.png" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#secondpage"  data-role="button">previous</a></li>
+                <li><a href="#fourthpage" data-role="button" id="btnNxt">next</a></li>
+                
+            </ul>
+           
+    </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#firstpage"  data-role="button">Home</a></li>
+                
+            </ul>
+           </div>          
+        
+            </div>
+
+    </div>
+    
+         <!-- This is the fourth page -->
+    <div id="fourthpage" data-role="dialog">
+        <div data-role="header">
+            <h1>Step 3 of 9</h1>
+        </div>
+        <div class="ui-content">
+           <h2>Select a fabric strip.</h2>
+            <p>Place it under the twine, ready for tying.</p>
+            <img src="images/670px-Garland-tie-1.jpg" id="craftpic">
+        </div>
+        <div data-role="navbar">
+            <ul>
+               <li><a href="#secondpage"  data-role="button">previous</a></li>
+                <li><a href="#fifthpage" data-role="button" id="btnNxt">next</a></li>
+                
+            </ul>
+    </div>
+         
+        <div data-role="footer" id="foo1" data-position="fixed">
+            <div data-role="navbar">
+            <ul>
+               <li><a href="#firstpage"  data-role="button">Home</a></li>
+                
+            </ul>
+           </div>          
+        </div>
+    </div>
+
+
+</body>
